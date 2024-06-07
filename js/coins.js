@@ -33,7 +33,7 @@ AFRAME.registerComponent('coins',{
             property : 'rotation',
             to : '0 360 0',
             loop : 'true',
-            duration : 1000
+            dur : 1000
         })
         coinEl.setAttribute('static-body',{
             shape:'sphere', 

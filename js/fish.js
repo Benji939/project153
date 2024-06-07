@@ -31,15 +31,15 @@ AFRAME.registerComponent('fish',{
             z : 0
         })
         fishEL.setAttribute('scale', {
-            x : 0.3,
-            y : 0.3,
-            z : 0.3
+            x : 0.8,
+            y : 0.8,
+            z : 0.8 
         })
         fishEL.setAttribute('animation', {
             property : 'position',
             to : '200 10 -20',
             loop : 'true',
-            duration : 20000
+            dur : 20000
         })
         fishEL.setAttribute('animation-mixer',{})
         fishEL.setAttribute('static-body', {
