@@ -35,6 +35,13 @@ AFRAME.registerComponent('coins',{
             loop : 'true',
             duration : 1000
         })
+        coinEl.setAttribute('static-body',{
+            shape:'sphere', 
+            sphereRadius: 2
+        })
+        coinEl.setAttribute('game-play', {
+            elementID : `#${id}`
+        })
         treasureEn.appendChild(coinEl);
     }
 })
